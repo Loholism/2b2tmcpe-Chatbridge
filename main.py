@@ -1,6 +1,5 @@
 import discord
 from discord.ext import commands
-import os
 from aiohttp import ClientSession
 
 b=commands.Bot(command_prefix='=', self_bot=True, help_command=None)
