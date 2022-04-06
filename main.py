@@ -5,7 +5,7 @@ from aiohttp import ClientSession
 
 b=commands.Bot(command_prefix='=', self_bot=True, help_command=None)
 
-TOKEN = os.environ.get('TOKEN')
+TOKEN = #enter your accounts token here
 
 blacklist=["EDestroyer10", "Pyrobyte6948", "Bloominghat7956", "GalaxyGamer661", "KLP SUPRISE", "Chaos agent5246", "ExtinctOpti"]
 
