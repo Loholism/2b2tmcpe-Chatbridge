@@ -22,7 +22,7 @@ async def on_message(ctx):
       content=str(ctx.content).replace("@here", "@heree").replace("@everyone", "@eveyone")
       for i in blacklist:
         if content==f":green_circle: {i} joined the server":
-          content+=" <@578547150875656192>"
+          content+=" "
           break
       await channel.send(content)
     else:
