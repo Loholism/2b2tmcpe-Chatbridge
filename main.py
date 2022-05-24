@@ -6,8 +6,6 @@ b=commands.Bot(command_prefix='=', self_bot=True, help_command=None)
 
 TOKEN = #enter your accounts token here
 
-blacklist=["EDestroyer10", "Pyrobyte6948", "Bloominghat7956", "GalaxyGamer661", "KLP SUPRISE", "Chaos agent5246", "ExtinctOpti"]
-
 @b.event
 async def on_connect():
   print("Stay halal")
@@ -19,10 +17,6 @@ async def on_message(ctx):
     if ctx.author.id==700275401314009168:
       channel=b.get_channel() #enter the id of the channel you want to have the bot send its messages to
       content=str(ctx.content).replace("@", "[at]")
-      for i in blacklist:
-        if content==f":green_circle: {i} joined the server":
-          content+=" "
-          break
       await channel.send(content)
     else:
       WEBHOOK_URL="" #enter your webhook url here
