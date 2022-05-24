@@ -13,6 +13,6 @@ epic tutorial:
 7. run it
 
 requirements:
-python3
-discord.py-self (https://pypi.org/project/discord.py-self/)
-aiohttp
+1. python3
+2. discord.py-self (https://pypi.org/project/discord.py-self/)
+3. aiohttp
