@@ -16,4 +16,4 @@ requirements:
 1. python3 (https://www.python.org/downloads/)
 2. discord.py-self (https://pypi.org/project/discord.py-self/)
 3. aiohttp (https://pypi.org/project/aiohttp/)
-4. at least one braincell
+4. at least one braincell (i dont have )
