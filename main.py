@@ -4,7 +4,7 @@ from aiohttp import ClientSession
 
 b=commands.Bot(command_prefix='=', self_bot=True, help_command=None)
 
-TOKEN = #enter your accounts token here
+TOKEN = "" #Put your accout token in the parenthesies... google how to find it then copy it from the page WITHOUT the parenthesies that are shown.
 
 @b.event
 async def on_connect():
@@ -15,9 +15,9 @@ async def on_connect():
 async def on_message(ctx):
   if ctx.channel.id==915274436347826227:
     if ctx.author.id==700275401314009168:
-      channel=b.get_channel() #enter the id of the channel you want to have the bot send its messages to
+      channel=b.get_channel("") #enter the id of the channel you want to have the bot send its messages to
       content=str(ctx.content).replace("@", "[at]")
-      await channel.send(content)
+      await ctx.channel.send(content)
     else:
       WEBHOOK_URL="" #enter your webhook url here
       async with ClientSession() as session:
