@@ -8,7 +8,7 @@ epic tutorial:
 2. join the 2b2tmcpe discord server with that account
 3. get that accounts token (google how)
 4. enter the token in line 7 of main.py with quotes (") around it
-5. create a webhook in the channel you want the chatnridge in and enter its url in line 8 of main.py
+5. create a webhook in the channel you want the chatbridge in and enter its url in line 8 of main.py
 6. run it
 
 requirements:
