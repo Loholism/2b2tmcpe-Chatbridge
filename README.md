@@ -9,7 +9,8 @@ epic tutorial:
 3. get that accounts token (google how)
 4. enter the token in line 7 of main.py with quotes (") around it
 5. create a webhook in the channel you want the chatbridge in and enter its url in line 8 of main.py
-6. run it
+6. enter the id of the channel you created the webhoom in in line 9 of main.py
+7. run it
 
 requirements:
 1. python3 (https://www.python.org/downloads/)
